@@ -1,0 +1,43 @@
+body{background-color: black;}
+.container {
+    background: url(../img/fondo.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+  }
+header{
+    background-color: rgba(25, 27, 29, 0.95);
+    min-height: inherit;
+    border: none;
+  }
+  .navbar-inverse {
+    background-color: rgb(25, 27, 29, 0.95);
+    min-height: 10%;
+    border: none;}
+.logo-img {
+    width: 200px;
+  }
+  .redes-sociales {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .img-social {
+    width: 40px;
+    height: 40px;
+  }
+button{
+    margin: 3px;
+}
+h1, p {color: aliceblue;}
+#foto{
+    margin-top: 30px;
+}
+form{margin: 30px;}
+table{
+    background-color: rgba(62, 171, 243, 0.8);
+}
+td{color:aliceblue; font-family:Arial, Helvetica, sans-serif; font-size:1.5em}
+td:hover{color:rgb(15, 19, 22);}

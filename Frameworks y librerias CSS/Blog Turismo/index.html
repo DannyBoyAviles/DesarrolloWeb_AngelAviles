@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen"/>
+    <title>Blog Turismo</title>
+  </head>
+<body>
+    <div id="cabecera" class="card-panel"></div> <!-- contenedor cabecera fijo -->
+  <div id="wrapper" class="row"> <!-- contenedor principal -->
+    <div class="col s12 m10 l8 push-m1 push-l2">
+  <div class="row">
+    
+    <div class="col s3 m2 l2"><img id="logo" class="logo responsive-img z-depth-2" src="img/logo.png"></div>
+    <div class="col s9 m10 l10">
+        <nav>
+            <div class="nav-wrapper"> 
+              <ul class="right">
+                <li><a class="waves-effect waves-light btn-large"> <i class="material-icons left">home</i><span class="hide-on-small-only">Inicio</span></a></li>
+                <li><a class="waves-effect waves-light btn-large"> <i class="material-icons left">airplanemode_active</i><span class="hide-on-small-only">Nuevos Viajes</span></a></li>
+                <li><a class="waves-effect waves-light btn-large"> <i class=" material-icons left">access_time</i><span class="hide-on-small-only">Ultimos Viajes</span></a></li>
+                <li><a class="waves-effect waves-light btn-large"> <i class=" material-icons left">airport_shuttle</i><span class="hide-on-small-only">Recomendaciones</span></a></li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="col s12 m8 l10"><h2 class="flow-text grey-text text-lighten-5"> Un pedacito de México</h2></div>
+  </div>
+  <div class="row center-align col s12"> <!-- seccion de imagenes -->
+    <div class="col m1 l1 hide-on-small-only center"> <!-- REDES SOCIALES -->
+       <a href="#"><img class="responsive-img" src="img/bf-ico.png"></a>
+       <a href="#"><img class="responsive-img" src="img/tw-ico.png"></a>
+       <a href="#"><img class="responsive-img" src="img/yt-ico.png"></a>
+       <a href="#"><img class="responsive-img" src="img/ig-ico.png"></a>
+       <a href="#"><img class="responsive-img" src="img/in-ico.png"></a>
+    </div>
+      <div class="col s12 m4 l4"> <!-- IMAGENES IZQUIERDA -->
+        <img class="responsive-img z-depth-2" src="img/imagen1.jpg">
+        <img class="responsive-img z-depth-2" src="img/imagen2.jpg">
+      </div>
+      <div class="col s12 m4 l4"> <!-- IMAGEN CENTRO -->
+          <img class="responsive-img z-depth-2" src="img/imagen10.jpg">
+      </div>
+      <div class="col s12 m3 l3"> <!-- IMAGENES DERECHA -->
+          <img class="responsive-img z-depth-2" src="img/imagen3.jpg">
+          <img class="responsive-img z-depth-2" src="img/imagen4.jpg">
+          <img class="responsive-img z-depth-2" src="img/imagen6.jpg">
+      </div>
+  </div>
+<!-- aqui empieza el LA SECCION DE ENTRADAS -->
+  <div class="row col s12">
+      <div class="s12 m9 l9 col"> <!-- ENTRADA CANCUN -->
+          <div class="card grey lighten-5">
+              <div class="card-content">
+                <div class="s12 m4 col">
+                  <img class="responsive-img z-depth-2" src="img/imagen7.jpg">
+                </div>
+                <span class="card-title">Cancún</span><br>
+                <div class="chip">Sab, 28 de Octubre</div>
+                <div class="chip">Quintana Roo, México</div>
+                <p class="flow-text justify">Es una ciudad en el estado de Quintana Roo, siendo cabecera del municipio de Benito Juárez, se ubica en el oriente de México, a más de 1700 km de la Ciudad de México. Es la ciudad más poblada del estado con 628 306 habitantes según últimos censos del Instituto Nacional de Estadística y Geografía en el 2010. Considerada un destino turístico de nivel internacional, con certificación de la Organización Mundial del Turismo,8​ el proyecto de su desarrollo inició operaciones en 1974 como Centro Integralmente Planeado, pionero de Fonatur (Fondo Nacional de Fomento al Turismo), antes conocido como Infratur.</p><br><p class="flow-text">En pocos años, tuvo una notable transformación, ya que, de ser una isla de pescadores rodeada de selva virgen y playas desconocidas, en la actualidad es, junto con Acapulco, el centro turístico mexicano más reconocido en el mundo, del estado de Quintana Roo. Cancún se encuentra dividido en cinco zonas, Isla Cancún es la primera y más importante Zona Hotelera, donde se concentra la mayor parte de las playas y actividades turísticas, la Zona Urbana donde habita el grueso de la población, Puerto Juárez es la tercera zona, encontramos dos muelles principales para embarcarse y cruzar a Isla Mujeres, ubicada a tan sólo 7 km frente al puerto, Franja Ejidal es una zona de asentamientos distribuidos de forma irregular en la parte norte de la ciudad, en los límites municipales de Isla Mujeres y Alfredo V. Bonfil.</p>
+              </div>
+          </div>
+          <!-- COMENTERIOS -->
+          <div class="card teal accent-4">
+            <div class="card-content">
+              <form>
+                <span class="card-title col s12">Deja tu Comentario</span>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix white-text">perm_identity</i>
+                  <input id="nombre" type="text" class="validate">
+                  <label for="nombre" class="white-text">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix white-text">email</i>
+                  <input id="email" type="email" class="validate">
+                  <label for="email" data-success="Correcto" data-error="Incorrecto" class="white-text">E-mail</label>
+                </div>
+                <div class="row">
+                  <div class="col s12">
+                <div class="input-field">
+                  <textarea id="texto" class="materialize-textarea white-text"></textarea>
+                  <label for="texto" class="white-text">Texto</label>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                    <i class="material-icons left">send</i>
+                  </button>
+              </div>
+              </form>
+            </div>
+          </div>
+
+      </div>
+      <div class="s10 m3 l3 col center push-s1"> <!-- SECCION DEL AUTOR -->
+        <div class="card grey lighten-5">
+          <div class="card-content">
+          <img class="responsive-img circle z-depth-2" src="img/autor.jpg"> <span class="card-title">Perfil del Autor</span>  
+
+            <hr><p>Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+            
+          </div>
+      </div>
+      </div> 
+</div>
+  </div> <!-- cierre del contenedor principal -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

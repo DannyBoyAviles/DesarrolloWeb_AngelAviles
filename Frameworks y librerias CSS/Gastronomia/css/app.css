@@ -1,0 +1,9 @@
+body{
+    background-image:url("../img/fondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;}
+#contenedor{background:rgba(242,71,56, 0.8);}
+#colI, #colE{background-color: #BF2A2A; padding: 5px;border-radius: 5px;}
+h1,h2,h3,h5,h6,p,label,dt{color:#F2C777; }
+p{margin-top: 10px;}
+

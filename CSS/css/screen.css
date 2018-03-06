@@ -1,0 +1,49 @@
+/*------Movil---------*/
+@media only screen and (max-width:480px){
+    #contenido{margin:0 auto; width:100%;}
+    nav li{text-align:center; display:inline; margin-left:25px; margin-right:25px;  font-size:.8em;}
+    header{text-align: center;}
+    section img{width: 95%;}
+    article{display: flex; flex-direction: column;}
+    #contenido article .col1{width: 100%;}
+    #contenido article .col2{width: 100%;} 
+    #contenido article .col1 img{width: 95%;}
+    #contenido article .col2 img{width: 95%;}
+
+    article .content-1{width: 100%; margin:15px auto;}
+    article .content-2{width: 100%; margin:15px auto;}
+    article .content-3{width: 100%; margin:15px auto;}
+    article .content-4{width: 100%; margin:15px auto;}
+    article .content-5{width: 100%; margin:15px auto;}
+    article .content-6{width: 100%; margin:15px auto;}
+    
+    .imgGaleria{width: 100%;}
+    .imgGaleria{width: 100%;}
+    .imgGaleria{width: 100%;}
+    .imgGaleria{width: 100%;}
+    .imgGaleria{width: 100%;}
+    .imgGaleria{width: 100%;}
+
+    footer .c1{margin:15px; width:110%}
+    footer .c2{margin:15px; width:100%}
+    footer .c3{margin:15px; width:100%}
+    footer .c4{margin:15px; width:100%}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    nav li{text-align:center; display:inline; margin-left:25px; margin-right:25px; color:#FFF; text-shadow:#02010a 2px 2px 2px;  font-size:1.3em;}
+    
+}
+/*---------Escritorio-------*/
+@media only screen and (min-width:769px){
+    #contenido{margin:0 auto; max-width: 900px;}
+    header{display: flex; flex-direction: row;}
+    #menu li{display: inline; list-style-type: none; margin-left: 10px;}
+    #menu {margin-top: 10px; margin-left: 200px; margin-bottom: 0; padding: 0;}
+
+
+
+    footer .c1{margin:15px; width:20%}
+    footer .c2{margin:15px; width:20%}
+    footer .c3{margin:15px; width:20%}
+    footer .c4{margin:15px; width:20%}
+    }
